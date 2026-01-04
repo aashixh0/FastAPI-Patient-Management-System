@@ -6,3 +6,4 @@ myenv/
 *.egg-info/
 dist/
 build/
+pydantic_tut.py

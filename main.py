@@ -43,12 +43,12 @@ class UpdatePatient(BaseModel):
 app = FastAPI()
 
 def load_data():
-    with open ("patient2.json","r") as f:
+    with open ("patient.json","r") as f:
         data = json.load(f)
     return data
 
 def save_data(data):
-    with open ('patient2.json','w') as f:
+    with open ('patient.json','w') as f:
         json.dump(data,f)
 
 
